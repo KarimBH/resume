@@ -1,0 +1,47 @@
+* {
+	font-family: consolas;
+}
+
+.content {
+	max-width: 760px;
+	margin: auto;
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+}
+
+ul {
+	padding-left: 15px;
+}
+
+section:not(:last-of-type) {
+	border-bottom: 1px solid;
+}
+
+.tag {
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.tag + .tag {
+	margin-left: 3px;
+}
+
+.hidden {
+	display: none;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 80%;
+    font-weight: 600;
+	line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+	border: 1px solid;
+	margin-top: .25rem;
+}
