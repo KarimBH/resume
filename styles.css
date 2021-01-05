@@ -3,11 +3,19 @@
 }
 
 .content {
-	max-width: 760px;
-	margin: auto;
-	margin-top: 20vh;
-	margin-bottom: 20vh;
+	max-width: 780px;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 10px;
 }
+
+@media only screen and (max-width: 950px) {
+   .content {
+		margin-top: 20px;
+   }
+}
+
 
 ul {
 	padding-left: 15px;
